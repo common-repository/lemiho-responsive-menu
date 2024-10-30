@@ -1,0 +1,69 @@
+div.lemiho-responsive-menu {
+    width: 300px;
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    z-index: 9999999;
+}
+button.button-hide-menu-mobile, button.button-show-menu-mobile {
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+}
+div.lemiho-responsive-menu > ul,button.button-hide-menu-mobile {
+    display: none;
+}
+div.lemiho-responsive-menu > ul {
+    margin-top: 55px!important;
+}
+div.lemiho-responsive-menu > ul,
+div.lemiho-responsive-menu > ul > li > ul {
+    padding: 0px;
+    margin: 0px;
+}
+div.lemiho-responsive-menu ul.sub-menu {
+    border-top: 1px dashed #ccc;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+div.lemiho-responsive-menu > ul > li,div.lemiho-responsive-menu > ul > li > ul > li,
+div.lemiho-responsive-menu > ul > li > ul > li > ul > li {
+    list-style: none;
+    border-bottom: 1px dashed #ccc;
+    position: relative;
+    line-height: 40px;
+}
+div.lemiho-responsive-menu > ul > li > ul > li > ul > li:last-child {
+    border-bottom: none;
+}
+li.menu-item-has-children > button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+li.menu-item-has-children > button i {
+    font-size: 26px;
+}
+div.lemiho-responsive-menu a {
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 5px;
+}
+div.lemiho-responsive-menu > ul > li ul.sub-menu li {
+       margin-left: 15px;
+    border-left: 1px dashed #ccc;
+    list-style: none;
+}
+div.lemiho-responsive-menu > ul > li ul.sub-menu li:last-child {
+    border-bottom: none;
+}
+button.lemiho-icon-close-menu {
+    display: none;
+}
+div.lemiho-responsive-menu {
+    display: none;
+}
